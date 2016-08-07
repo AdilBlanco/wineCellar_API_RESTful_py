@@ -26,7 +26,7 @@ def findAll():
             'description': item['description'],
             'picture': item['picture']
             })
-    response.content_type = 'application/json'
+            
     return dumps(result)
             
 
